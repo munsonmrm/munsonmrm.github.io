@@ -1,0 +1,204 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+
+.bubble_image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.footer_icons {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.socials {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.footer_info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#right {
+  text-align: right;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Josefin Sans";
+  text-transform: capitalize;
+}
+
+p {
+  font-family: "Lato";
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+#pastries {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.main_menu {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 5rem;
+}
+
+#pastries {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
+.drinks,
+.food {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+section {
+  padding: 0%;
+}
+
+.main_section {
+  padding: 5rem;
+}
+
+#signature_cakes {
+  background-color: rgb(233, 233, 233);
+}
+
+.bubble_section {
+  background-color: rgb(233, 233, 233);
+}
+
+.order_section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.order_image {
+  width: 35rem;
+  height: auto;
+  justify-content: center;
+}
+
+.order_package {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.order_package_special {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.order_ul {
+  font-size: 1.25em;
+  font-family: "Lato";
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.order_title {
+  padding-left: 3rem;
+}
+
+.special_food {
+  display: flex;
+}
+
+.gallery_image {
+  width: 15rem;
+  height: 15rem;
+}
+
+.gallery_body {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+header {
+  background-color: black;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  width: 60rem;
+  height: 50rem;
+  position: absolute;
+}
+
+.map {
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
+.contact_package {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_form {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.order_form {
+  padding: 3rem;
+}
+
+iframe {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 48rem;
+  height: 38rem;
+}
+
+.gallery_body {
+  padding-top: 0em;
+}
+
+.order_ul p {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.within_site {
+  color: green;
+}
+
+.list_describe {
+  list-style: none;
+  font-size: 1rem;
+  font-style: italic;
+}
