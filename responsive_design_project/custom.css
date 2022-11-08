@@ -30,6 +30,14 @@
   text-align: right;
 }
 
+.gallery_description {
+  text-align: center;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
 h1,
 h2,
 h3,
@@ -41,10 +49,6 @@ h4 {
 p {
   font-family: "Lato";
   font-weight: bold;
-}
-
-h1 {
-  font-size: 8rem;
 }
 
 #pastries {
@@ -72,7 +76,6 @@ h1 {
 .food {
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-top: 3rem;
   padding-bottom: 3rem;
 }
 section {
@@ -130,6 +133,7 @@ section {
 .gallery_image {
   width: 15rem;
   height: 15rem;
+  align-items: center;
 }
 
 .gallery_body {
