@@ -100,9 +100,20 @@ section {
 }
 
 .order_image {
-  width: 35rem;
-  height: auto;
+  width: 30rem;
+  height: 30rem;
   justify-content: center;
+}
+
+.carousel_img {
+  width: 30rem;
+  height: 30rem;
+}
+
+.carousel-item,
+.carousel-item_active {
+  width: 33rem;
+  height: 33rem;
 }
 
 .order_package {
