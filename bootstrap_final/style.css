@@ -1,0 +1,507 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+body {
+  background-color: #f7f7f7;
+  color: #1e1e1e;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.hero_image:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: vibrate 3s;
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-1deg);
+  }
+  20% {
+    transform: rotate(1deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-1deg);
+  }
+  80% {
+    transform: rotate(1deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+
+#aboutme {
+  scroll-margin-top: 75px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.why {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.notmain {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.leftside {
+  justify-content: center;
+  padding-right: 2.5px;
+}
+
+.rightside {
+  padding-left: 2.5px;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 90px;
+}
+
+.lefthalf {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.righthalf {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.designstuff {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.wrapped {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+.nav-item {
+  font-family: "Yeseva One", cursive;
+}
+
+a.nav-link {
+  color: #6c6c6c;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #2d2d2d;
+}
+
+/* Presentational Styles */
+
+.hero_image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+nav {
+  background-color: #f7f7f7;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  font-size: 1.4em;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #1e1e1e;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbarResponsive {
+  justify-content: flex-start;
+  margin-left: 5.7%;
+  margin-right: 5.7%;
+}
+
+.about {
+  align-content: center;
+  justify-content: center;
+  justify-self: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding-top: 6rem;
+}
+
+.offset {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.offset1 {
+  padding-left: 2rem;
+  margin-top: 1rem;
+  margin-left: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-left-color: rgb(125, 125, 125);
+  border-top-color: #f7f7f7;
+  border-bottom-color: #f7f7f7;
+  border-right-color: #f7f7f7;
+}
+
+.bio {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.bigger_text {
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.biggest_text {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-top: 10px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.big_header {
+  font-size: 3rem;
+}
+
+.ee {
+  align-content: center;
+  justify-content: center;
+  justify-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.eeheader {
+  margin-bottom: 0px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-xs {
+  width: 13.7rem;
+}
+
+#secondbreak {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-self: flex-end;
+  text-align: right;
+  padding-top: 4.5rem;
+}
+
+h3 {
+  padding-bottom: 1rem;
+}
+
+.contact_header {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+}
+
+.needs_space {
+  padding-top: 3rem;
+}
+
+#contact_header {
+  font-size: 3rem;
+}
+
+.work-together {
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+  flex-wrap: wrap;
+}
+
+#contact {
+  color: rgb(19, 108, 105);
+}
+
+#contactpic {
+  justify-self: center;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.work-header {
+  display: flex;
+}
+
+.contact_form {
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+  margin-right: 7%;
+}
+
+header {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.video_section_first {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  padding-top: 3rem;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.video_section_last {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 3rem;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.video_section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.video_section img,
+.video_section_last img,
+.video_section_first img {
+  padding-top: 10px;
+}
+
+.design_section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+.design_section img {
+  padding-top: 15px;
+}
+
+.embed {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  border-radius: 0pt;
+}
+
+.btn:hover {
+  background-color: #f7f7f7;
+  color: rgb(44, 44, 44);
+  border-color: rgb(44, 44, 44);
+}
+
+.btn:active {
+  background-color: #f7f7f7;
+  color: rgb(44, 44, 44);
+  border-color: rgb(44, 44, 44);
+}
+
+.btn-primary {
+  background-color: rgb(44, 44, 44);
+  border-color: rgb(44, 44, 44);
+}
+
+.design {
+  justify-content: center;
+}
+
+.video-header {
+  justify-content: center;
+}
+
+.work-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-package {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.7rem;
+}
+
+.blurb {
+  font-size: 1.1rem;
+}
+
+#backbutton {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+.screencaps {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  justify-content: space-between;
+}
+
+.screencaps img {
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.caps {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.portfolio {
+  padding-top: 4rem;
+  font-size: 4rem;
+  padding-bottom: 0pt;
+}
+
+.aboutme {
+  background-image: url(images/me.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  margin: 5px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: rgb(202, 202, 202);
+  margin-top: 2.5rem;
+}
+
+.education-ex {
+  display: flex;
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
+}
+
+.cutie {
+  padding: 10px;
+}
+
+.homepage-contact {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: white;
+  background-image: url(images/typing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio-header {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+
+#resume {
+  background-image: url(images/pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
